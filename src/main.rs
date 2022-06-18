@@ -2,9 +2,6 @@ use yew::prelude::*;
 use yew_ethereum_provider::*;
 use wasm_bindgen_futures::spawn_local;
 
-mod components;
-use components::*;
-
 #[function_component]
 pub fn App() -> Html {
 
