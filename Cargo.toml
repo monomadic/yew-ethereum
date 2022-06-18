@@ -8,4 +8,5 @@ web3 = { version = "0.18.0", default-features = false, features = ["http-rustls-
 wasm-bindgen-futures = "0.4.30"
 log = "0.4.17"
 wasm-logger = "0.2.0"
-yew = "0.19.3"
+yew = { git = "https://github.com/yewstack/yew", features=["csr"] }
+yew-ethereum-provider = { git = "https://github.com/monomadic/yew-ethereum-provider" }
